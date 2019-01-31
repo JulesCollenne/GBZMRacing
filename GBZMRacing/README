@@ -1,0 +1,73 @@
+Réalisé par : 
+COLLENNE Jules jules.collenne@etu.uni-amu.fr
+DUROUGE Adrien adrien.durouge@etu.univ-amu.fr
+
+Jeu de course multijoueur en 2D "GaBuZoMeuRacing"
+
+Compilation: 
+make
+./GBZM
+
+Utilisation du programme : 
+
+Contrôles : 
+
+Joueur 1 :
+	Tourner : Flèches directionnelles gauche/droite
+	Accélerer : Flèche du haut
+	Freiner : Flèche du bas
+
+Joueur 2 : (Clavier Azerty)
+	Tourner : Q/D
+	Accélerer : Z
+	Freiner : S
+
+Joueur 3 :
+	Tourner : K/M
+	Accélerer : O
+	Freiner : Lè
+
+Joueur 4 : (Pavé numérique)
+	Tourner : 4/6
+	Accélerer : 8
+	Freiner : 5
+
+Lancer une partie : 
+
+1.Chargement d'une course préconstruite : 
+	"File"->"Load map"
+	Puis "File"->"X Player(s)"
+
+2.Créer sa course ou modifier une existante : 
+	"Editing"
+	Cliquer pour ajouter des points de la courbe de la route
+	Le menu de gauche permet l'édition de la course
+	Une fois finie, il faut lancer le jeu : "File"->"X player(s)"
+
+Sauvegarder une course créé : 
+	"File"->"Save map"
+
+Pour plus d'informations : 
+	"Help"->"About"
+
+Fonctionnalités du programme : 
+
+Création et édition des courses (courbes de bézier)
+Déplacement de voitures sur les routes (de 1 à 4 joueurs)
+Collisions avec la route
+Collisions (basiques) entre voitures
+Compte à rebours, classements des voitures avec leurs temps respectifs
+Champignons (boost)
+Couleurs aléatoires de voitures
+Arret du compte à rebourd quand toutes les voitures ont fini la course (arret de l'animation)
+Affichage d'un arrière plan de course (le pivoter, le redimensionner)
+Affichage d'une couleur de fond
+Sauvegarde et chargement de courses (dans des fichiers .txt)
+
+Ce qui est intéressant dans le programme : 
+
+Possibilité de mettre un fond pour la course
+D'innombrables couleurs de voitures
+Des courses préconstruites prête à l'emploi
+Une physique réaliste
+Cahier des charges respecté dans les délais
