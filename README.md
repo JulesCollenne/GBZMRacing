@@ -7,5 +7,7 @@ The software only use main C librairies and Gtk+ as dependencies, and the whole 
 Dependences : Gtk+
 
 To run, open terminal : 
+
 make
+
 ./GBZM
